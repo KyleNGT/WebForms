@@ -1,0 +1,54 @@
+DONE:
+    Instructions:
+        Use Bootstrap for styling.
+    Include the following input fields:
+        Full Name (DONE)
+        Birthdate (Auto-calculate age) (DONE)
+            Guardian Name (Required if age is under 18) (DONE)
+        Gender (Radio buttons) (DONE)
+            Other Gender (Only if "Other" is selected) (DONE)
+        Email (DONE)
+        Contact Number (Must be exactly 11 digits) (DONE)
+        Address (DONE)
+        Country (Dropdown list) (DONE)
+        Short Bio (At least 20 characters) (DONE)
+        Add a Submit and Reset button. (DONE)
+    Adding jQuery Logic
+        Auto-calculate Age from Birthdate. (DONE)
+
+
+
+        Format Birthdate to (Month, Day, Year) ex (January 01, 1980).
+        
+        
+        
+        
+        Show/Hide Guardian Field if the user is under 18. (DONE)
+        Show/Hide Other Gender Field if "Other" is selected. (DONE)
+    Validate Input:
+        Full Name should not be empty. (DONE)
+        Contact Number must be exactly 11 digits. (DONE)
+        Short Bio must be at least 20 characters. (DONE)
+        Email must be in the correct format. (DONE)
+        Country must be selected. (DONE)
+        all fields must be validated (DONE)
+            Name
+            Age
+            Guardian
+            Email
+            Contact
+            Address
+            Bio
+
+ONGOING:
+    On form submission:
+        Display all entered information in the Biography Details section.
+
+    Testing & Debugging
+    Test different cases:
+        Missing required fields
+        Invalid email
+        Short bio under 20 characters
+        Contact number not 11 digits
+        display all countries in the select box
+    Fix any errors before submission.

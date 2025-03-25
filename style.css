@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+.bio-container div {
+    float: left;
+    padding: 5px;
+    height: auto;
+    margin: 0px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.form-container {
+    width: 55%;
+    background-color: antiquewhite;
+}
+
+.form-container h2{
+    padding: 0px 0px 0px 20px;
+    margin: 15px 0px 0px 0px;
+}
+.bioForm {
+    display: flex;
+    flex-direction: column;
+}
+.detail-container {
+    width: 40%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-container h2{
+    padding: 0px 0px 0px 20px;
+    margin: 15px 0px 0px 0px;
+}
+
+.detail-list h4{
+    margin: 5px 0px 0px 0px;
+}
+.bio-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.error{
+    margin: 0px;
+    color: red;
+}
